@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="fr" class="h-full bg-white">
+<head>
+	
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+		<title>Connexion | Piter</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+			<link rel="stylesheet" href="/build/2889.a132b6de.css"><link rel="stylesheet" href="/build/app.2ccc2718.css">
+		
+
+</head>
+<body class="h-full overflow-hidden">
+	
+
+
+<div id="globalSpinner" class="hidden">
+	<div class="spinner-overlay fixed w-full h-screen z-100">
+		<div role="status" class="absolute -translate-x-1/2 -translate-y-1/2 top-2/4 left-1/2">
+			<svg aria-hidden="true" class="piter w-32 h-32 mr-2 text-gray-200 animate-spin fill-piter-blue" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z" fill="currentColor"/>
+				<path d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z" fill="currentFill"/>
+			</svg>
+			<span class="sr-only">Loading...</span>
+		</div>
+	</div>
+</div>
+
+
+
+<div id="div-body">
+	
+<section class="flex h-[100vh]">
+		<div class="hidden md:block md:w-2/3 h-full bg-blue-300 ">
+		<img src="/build/images/image-login-agp.7e8f1666.jpg" alt="Login Background" class="w-full h-full object-cover">
+	</div>
+
+		<div class="md:w-1/3 w-full h-full flex flex-col justify-between bg-custom-light-gray pt-[10vh] pb-[2vh] pl-10 pr-[5vw]">
+		<div>
+			<div class="flex justify-start">
+				<img loading="lazy" class="h-[17vh] w-auto" src="/build/images/logo-groupe-agp.7b4d8304.svg" alt="Logo groupe AGP">
+			</div>
+			<p class="text-custom-gray-piter-700 text-sm text-left leading-6 mt-10">
+				Bienvenue sur ALLIANCE PROCUREMENT, la plateforme digitale du Groupe ALLIANCE GLOBAL PROCUREMENT. Alliance High Tech et SystemGIE sont réunis au sein du groupe ALLIANCE GLOBAL PROCUREMENT pour mutualiser leurs forces, leurs offres et leurs ressources afin de vous accompagner, clients et partenaires vers le monde des achats de demain. Vous êtes partenaires et souhaitez répondre aux sollicitations de nos clients Grands Comptes ? Contactez-nous sur contact@groupe-agp.com. Vous êtes un Grand Compte et souhaitez avoir plus d'informations sur notre solution digitale d'externalisation d'achats ? Contactez-nous sur contact@groupe-agp.com
+			</p>
+		</div>
+
+		<div>
+			<a href="https://piter.at/connexion" class="login-button-customized py-3">Se connecter</a>
+		</div>
+
+		<div>
+			<div class="flex justify-between mb-5">
+				<img loading="lazy" class="h-8 w-auto" src="/build/images/PiterBrand.fd4bd6a7.png" alt="Piter">
+				<a href="https://agp.piter.at/connexion"><img loading="lazy" class="h-8 w-auto" src="/build/images/logo-symbole-groupe-agp.9989a12b.svg" alt="Logo connexion SSO AGP"></a>
+			</div>
+			<div class="flex gap-x-1 justify-between items-center text-custom-gray-piter-700 text-xs">
+				<p>
+					Version dev
+				</p>
+				<p>|</p>
+				<p>
+					<a href="/documents/CGU_AGP_PITER_202609.pdf" download>
+						Conditions Générales d'Utilisation
+					</a>
+				</p>
+				<p>|</p>
+				<p>
+					© All right reserved Piter SAS
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+	
+<div
+  data-te-modal-init
+  class="fixed left-0 top-0 z-[1055] hidden h-full w-full overflow-y-hidden overflow-x-hidden outline-none shadow-2xl "
+  id="session-expired"
+  tabindex="-1"
+  aria-labelledby="session-expiredScrollable"
+  aria-modal="true"
+  role="dialog"
+  >
+  <div
+    data-te-modal-dialog-ref
+    class="modal-size-s pointer-events-none relative w-auto translate-y-[-50px] opacity-0 transition-all duration-300 ease-in-out mx-auto max-h-[90dvh] mt-7 mb-[7vh] ">
+    <div
+      class="pointer-events-auto relative flex flex-col max-h-[90dvh] w-full rounded-md border-none bg-white bg-clip-padding text-current shadow-lg outline-none">
+
+              <div class="flex flex-shrink-0 items-center justify-between rounded-t-md border-b-2 border-[#E4E5F3] border-opacity-100 px-6 py-4">
+          <div class="inline-flex">
+                        <h5 class="text-xl font-bold leading-normal text-custom-heading-font" id="session-expiredLabel">
+              Session expirée
+            </h5>
+            <span data-modal-title-slot class="flex items-center"></span>
+          </div>
+
+          <div class="flex flex-row items-center">
+            <div data-modal-header-actions-slot class="flex items-center"></div>
+            <div hidden id="modalDownloadButton" class="justify-center items-center">
+              <a href="#" target="_blank" class="pr-2 flex" title="Télécharger" aria-label="Télécharger">
+                <i class="icon-download h-5 w-5"></i>
+              </a>
+              <button type="button" class="box-content rounded-none border-none hover:no-underline hover:opacity-75 focus:opacity-100 focus:shadow-none focus:outline-none"></button>
+            </div>
+            <button
+              type="button"
+              class="box-content rounded-none border-none hover:no-underline hover:opacity-75 focus:opacity-100 focus:shadow-none focus:outline-none text-custom-gray-piter-700"
+              data-te-modal-dismiss
+              aria-label="Close">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      
+      <div class="js-modal-body">
+         <div class="js-modal-content">
+	<div class="m-6 space-y-5 text-center">
+		Votre session a expiré, veuillez vous reconnecter.
+	</div>
+</div>
+
+<div class="js-modal-footer">
+	<a href="/connexion" class="btn-primary">Connexion</a>
+</div>
+       </div>
+    </div>
+  </div>
+</div>
+
+	
+<div
+  data-te-modal-init
+  class="fixed left-0 top-0 z-[1055] hidden h-full w-full overflow-y-hidden overflow-x-hidden outline-none shadow-2xl "
+  id="genericConfirmModal"
+  tabindex="-1"
+  aria-labelledby="genericConfirmModalScrollable"
+  aria-modal="true"
+  role="dialog"
+  >
+  <div
+    data-te-modal-dialog-ref
+    class="modal-size-s pointer-events-none relative w-auto translate-y-[-50px] opacity-0 transition-all duration-300 ease-in-out mx-auto max-h-[90dvh] mt-7 mb-[7vh] ">
+    <div
+      class="pointer-events-auto relative flex flex-col max-h-[90dvh] w-full rounded-md border-none bg-white bg-clip-padding text-current shadow-lg outline-none">
+
+              <div class="flex flex-shrink-0 items-center justify-end rounded-t-md border-b-2 border-[#E4E5F3] border-opacity-100 p-4">
+          <div class="flex-row items-center">
+            <div hidden id="modalDownloadButton" class="justify-center items-center">
+              <a href="#" target="_blank" class="pr-2 flex" title="Télécharger" aria-label="Télécharger">
+                <i class="icon-download h-5 w-5"></i>
+              </a>
+              <button type="button" class="box-content rounded-none border-none hover:no-underline hover:opacity-75 focus:opacity-100 focus:shadow-none focus:outline-none"></button>
+            </div>
+            <button
+              type="button"
+              class="box-content rounded-none border-none hover:no-underline hover:opacity-75 focus:opacity-100 focus:shadow-none focus:outline-none"
+              data-te-modal-dismiss
+              aria-label="Close">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      
+      <div class="js-modal-body">
+         <div class="p-6 text-left">
+	<div class="sm:flex sm:items-start">
+		<div class="mx-auto flex size-12 shrink-0 items-center justify-center rounded-full bg-orange-100 sm:mx-0 sm:size-10">
+			<svg class="size-6 text-orange-500" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+				<path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z"/>
+			</svg>
+		</div>
+		<div class="mt-3 sm:ml-4 sm:mt-0 sm:text-left">
+			<p id="genericConfirmModalMessage"></p>
+		</div>
+	</div>
+	<div class="mt-6 flex items-center justify-end gap-x-3">
+		<button
+			type="button"
+			class="btn-light"
+			data-te-modal-dismiss
+			data-te-ripple-init
+			data-te-ripple-color="light">
+			Annuler
+		</button>
+		<button type="button" id="genericConfirmModalConfirm" class="btn-primary noDoubleClick">
+			Continuer
+		</button>
+	</div>
+</div>
+       </div>
+    </div>
+  </div>
+</div>
+
+
+		</div>
+
+
+<div
+		class="js-cookie"
+		data-cookie-enabled="true"
+		data-cookie-saved-message="Vos préférences de cookies ont été enregistrées"
+></div>
+
+	<div id="piter-cookie-root" hidden>
+		<div id="piter-cookie-backdrop"></div>
+
+		<div id="piter-cookie-overlay">
+			<div
+					id="piter-cookie-dialog"
+					class="modal-size-sm"
+					role="dialog"
+					aria-modal="true"
+					aria-labelledby="piter-cookie-title"
+					aria-describedby="piter-cookie-intro"
+					tabindex="-1"
+			>
+				<div class="pc-card">
+					<div class="pc-card__head">
+						<div class="pc-card__head-row">
+							<div>
+								<p class="pc-eyebrow">Confidentialité</p>
+								<h2 id="piter-cookie-title" class="pc-title">Gestion des cookies</h2>
+							</div>
+
+							<button id="piter-cookie-close" type="button" class="pc-continue">
+								Continuer sans accepter
+							</button>
+						</div>
+
+						<p id="piter-cookie-intro" class="pc-intro">Ce choix ne concerne ni vos données métier ni les documents déposés dans Piter : il porte uniquement sur les informations que votre navigateur conserve pour vous. Il est modifiable à tout moment depuis « Gérer mes cookies », dans votre menu profil.</p>
+					</div>
+
+					<div class="pc-card__body">
+													<section class="pc-section pc-section--necessary">
+								<h3 class="pc-section__heading">
+									<button
+											type="button"
+											class="pc-section__trigger"
+											data-cookie-disclosure
+											aria-expanded="false"
+											aria-controls="piter-cookie-panel-necessary"
+									>
+										<span class="pc-section__title">Cookies nécessaires</span>
+
+										<span class="pc-section__meta">
+											<span class="pc-badge company-badge-enabled">
+												Toujours actif
+											</span>
+											<span class="pc-section__count">4 cookies</span>
+											<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="pc-section__chevron h-4 w-4" aria-hidden="true">
+												<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
+											</svg>
+										</span>
+									</button>
+								</h3>
+
+								<div id="piter-cookie-panel-necessary" class="pc-section__panel" hidden>
+									<p class="pc-section__desc">Piter dépose des cookies strictement nécessaires au fonctionnement et à la sécurité du site (session, connexion, anti-robot). Sans eux, vous ne pouvez ni vous connecter ni rester authentifié d&#039;une page à l&#039;autre.</p>
+
+									<ul class="pc-outcome">
+										<li class="pc-outcome__item pc-outcome__item--accept">
+											<span class="pc-outcome__label">Si vous acceptez :</span>
+											ils sont déposés dès votre arrivée, votre consentement n&#039;est pas requis pour ce périmètre.
+										</li>
+										<li class="pc-outcome__item pc-outcome__item--refuse">
+											<span class="pc-outcome__label">Si vous refusez :</span>
+											ils restent déposés : les retirer reviendrait à vous empêcher d&#039;utiliser la solution.
+										</li>
+									</ul>
+
+									<div class="pc-detail">
+										<table class="pc-table">
+											<caption class="sr-only">Cookies nécessaires</caption>
+											<thead>
+											<tr>
+												<th scope="col">Finalité</th>
+												<th scope="col">Émetteur</th>
+												<th scope="col">Conservation</th>
+											</tr>
+											</thead>
+											<tbody>
+																							<tr>
+													<td>Maintient votre session et votre authentification d&#039;une page à l&#039;autre.</td>
+													<td>Piter</td>
+													<td>Session (1 heure d&#039;inactivité)</td>
+												</tr>
+																							<tr>
+													<td>Vous reconnecte automatiquement lorsque vous avez coché « Rester connecté ».</td>
+													<td>Piter</td>
+													<td>7 jours</td>
+												</tr>
+																							<tr>
+													<td>Conserve le choix que vous faites ici, pour ne pas vous le redemander à chaque visite.</td>
+													<td>Piter</td>
+													<td>13 mois</td>
+												</tr>
+																							<tr>
+													<td>Protège les formulaires de connexion et de mot de passe contre les robots.</td>
+													<td>Google reCAPTCHA</td>
+													<td>6 mois</td>
+												</tr>
+																						</tbody>
+										</table>
+									</div>
+								</div>
+							</section>
+													<section class="pc-section pc-section--comfort">
+								<h3 class="pc-section__heading">
+									<button
+											type="button"
+											class="pc-section__trigger"
+											data-cookie-disclosure
+											aria-expanded="false"
+											aria-controls="piter-cookie-panel-comfort"
+									>
+										<span class="pc-section__title">Cookies de confort</span>
+
+										<span class="pc-section__meta">
+											<span class="pc-badge company-badge-optional">
+												Optionnel
+											</span>
+											<span class="pc-section__count">6 cookies</span>
+											<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="pc-section__chevron h-4 w-4" aria-hidden="true">
+												<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
+											</svg>
+										</span>
+									</button>
+								</h3>
+
+								<div id="piter-cookie-panel-comfort" class="pc-section__panel" hidden>
+									<p class="pc-section__desc">Ces cookies mémorisent la façon dont vous avez réglé vos écrans : filtres appliqués, colonnes masquées, dernier onglet consulté, menu latéral replié. Ils ne contiennent aucune donnée personnelle au-delà de votre identifiant interne et ne sortent jamais de Piter.</p>
+
+									<ul class="pc-outcome">
+										<li class="pc-outcome__item pc-outcome__item--accept">
+											<span class="pc-outcome__label">Si vous acceptez :</span>
+											vous retrouvez vos listes telles que vous les aviez laissées, sur ce navigateur.
+										</li>
+										<li class="pc-outcome__item pc-outcome__item--refuse">
+											<span class="pc-outcome__label">Si vous refusez :</span>
+											rien n&#039;est perdu, mais vos filtres, colonnes et onglets repartent de leur état par défaut à chaque visite.
+										</li>
+									</ul>
+
+									<div class="pc-detail">
+										<table class="pc-table">
+											<caption class="sr-only">Cookies de confort</caption>
+											<thead>
+											<tr>
+												<th scope="col">Finalité</th>
+												<th scope="col">Émetteur</th>
+												<th scope="col">Conservation</th>
+											</tr>
+											</thead>
+											<tbody>
+																							<tr>
+													<td>Mémorise les filtres appliqués à vos listes (consultations, commandes, activités…).</td>
+													<td>Piter</td>
+													<td>7 jours</td>
+												</tr>
+																							<tr>
+													<td>Mémorise les colonnes que vous avez masquées dans vos tableaux.</td>
+													<td>Piter</td>
+													<td>1 an</td>
+												</tr>
+																							<tr>
+													<td>Mémorise le dernier onglet consulté entre régie et forfait sur vos listes.</td>
+													<td>Piter</td>
+													<td>7 jours</td>
+												</tr>
+																							<tr>
+													<td>Mémorise le mode d&#039;édition des managers sur la liste des commandes.</td>
+													<td>Piter</td>
+													<td>7 jours</td>
+												</tr>
+																							<tr>
+													<td>Mémorise si vous avez replié le menu latéral.</td>
+													<td>Piter</td>
+													<td>1 an</td>
+												</tr>
+																							<tr>
+													<td>Mémorise le dernier onglet consulté sur les listes d&#039;utilisateurs et la bibliothèque documentaire.</td>
+													<td>Piter</td>
+													<td>Session de navigation</td>
+												</tr>
+																						</tbody>
+										</table>
+									</div>
+								</div>
+							</section>
+						
+						<p class="pc-policy">
+							Le détail des traitements de données figure dans nos
+							<a href="https://www.piter.at/fr/conditions-generales-d-utilisation" target="_blank" rel="noopener noreferrer">conditions générales d&#039;utilisation</a>
+						</p>
+					</div>
+
+					<div class="pc-card__foot">
+						<div id="piter-cookie-actions">
+							<div class="pc-action">
+								<button id="piter-cookie-refuse" type="button" class="btn-light">Tout refuser</button>
+								<span class="pc-action__hint">Les cookies de confort sont écartés ; seuls les cookies nécessaires restent.</span>
+							</div>
+							<div class="pc-action">
+								<button id="piter-cookie-necessary" type="button" class="btn-light-text-blue">Accepter le nécessaire</button>
+								<span class="pc-action__hint">Même effet : seuls les cookies nécessaires sont conservés.</span>
+							</div>
+							<div class="pc-action">
+								<button id="piter-cookie-accept" type="button" class="btn-accent">Tout accepter</button>
+								<span class="pc-action__hint">Les cookies nécessaires et de confort sont conservés.</span>
+							</div>
+						</div>
+
+						<p id="piter-cookie-continue-note">
+							<span class="pc-note__line pc-note__line--ref">* « Continuer sans accepter » équivaut à un refus : Piter n&#039;appliquera que les cookies strictement nécessaires.</span>
+							<span class="pc-note__line">Aucun cookie de mesure d&#039;audience, de publicité ni de partage vers des réseaux sociaux n&#039;est déposé, quel que soit votre choix.</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<button id="piter-cookie-manager" type="button" data-cookie-open aria-label="Gestion des cookies" hidden>
+		<img src="https://piter-bucket-prod.s3.sbg.perf.cloud.ovh.net/cache/cookie/piter_cookie.png" alt=""/>
+	</button>
+
+
+		<script>
+        const autoCompleteNotFoundMessage = "Aucun résultat pour @word@"
+        const orderMessage = "Commandé"
+        const consumedMessage = "Consommé"
+	</script>
+	<script src="/build/runtime.20bc7552.js" defer></script><script src="/build/283.b26d1d76.js" defer></script><script src="/build/1246.afdf5028.js" defer></script><script src="/build/5561.e152b940.js" defer></script><script src="/build/3362.b5464239.js" defer></script><script src="/build/3249.4c1335d0.js" defer></script><script src="/build/5440.89ff1911.js" defer></script><script src="/build/1133.9ee3f2f5.js" defer></script><script src="/build/8231.303ac00d.js" defer></script><script src="/build/5316.e9362d56.js" defer></script><script src="/build/3567.c691af26.js" defer></script><script src="/build/392.265e70f1.js" defer></script><script src="/build/8408.e16585f4.js" defer></script><script src="/build/4692.c1f46921.js" defer></script><script src="/build/6214.450effe9.js" defer></script><script src="/build/2968.d15f8569.js" defer></script><script src="/build/8645.86c01ba9.js" defer></script><script src="/build/9174.60a67d09.js" defer></script><script src="/build/9399.1a0e18f5.js" defer></script><script src="/build/2810.f0acac53.js" defer></script><script src="/build/9432.f7a08659.js" defer></script><script src="/build/4631.667516f0.js" defer></script><script src="/build/3350.4f11eb38.js" defer></script><script src="/build/6118.c1a2c16a.js" defer></script><script src="/build/2889.9f41bcf9.js" defer></script><script src="/build/4650.19065879.js" defer></script><script src="/build/356.d97ab588.js" defer></script><script src="/build/4320.313c4093.js" defer></script><script src="/build/3075.17c6d25c.js" defer></script><script src="/build/3333.a7d3ed80.js" defer></script><script src="/build/1479.f0d6030e.js" defer></script><script src="/build/app.71598757.js" defer></script>
+
+	
+
+</body>
+	
+
+</html>

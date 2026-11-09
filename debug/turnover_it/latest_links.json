@@ -1,0 +1,30 @@
+{
+  "platform": "Turnover-IT",
+  "page": "https://app.turnover-it.com/login?redirect=/",
+  "selector": "a[href]",
+  "total_links_in_html": 5,
+  "total_candidates": 5,
+  "missions_found": 1,
+  "rejected": {
+    "missing_url": 0,
+    "invalid_domain_or_path": 4,
+    "invalid_title": 0,
+    "duplicate": 0
+  },
+  "missions": [
+    {
+      "id": "f71f02630445b1734a891be7f048b75f0623b2a236443ed90d3355dcaa330671",
+      "platform": "Turnover-IT",
+      "title": "Mot de passe oublié ?",
+      "url": "https://app.turnover-it.com/password/reset"
+    }
+  ],
+  "candidates_preview": [
+    {
+      "url": "https://app.turnover-it.com/password/reset",
+      "title": "Mot de passe oublié ?",
+      "rejected": null
+    }
+  ],
+  "date": "2026-11-05T08:20:21.862081+00:00"
+}

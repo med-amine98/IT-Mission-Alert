@@ -1,0 +1,120 @@
+{
+  "platform": "HiTechPros",
+  "page_url": "https://esn.hitechpros.com/missions",
+  "card_selectors": [],
+  "candidate_selectors": [
+    "a[href*='/missions/']"
+  ],
+  "anchor_count": 115,
+  "candidate_count": 32,
+  "missions_count": 25,
+  "rejected": {
+    "no_href": 0,
+    "bad_url": 7,
+    "bad_title": 0,
+    "duplicate": 0
+  },
+  "preview": [
+    {
+      "title": "Un(e) consultant(e) full stack / devsecops : java, gitlab",
+      "url": "https://esn.hitechpros.com/missions/224558"
+    },
+    {
+      "title": "Expert architecte windows 365 / modern workplace : ms-102, md-102",
+      "url": "https://esn.hitechpros.com/missions/224557"
+    },
+    {
+      "title": "Expert en sécurité : soc, edr",
+      "url": "https://esn.hitechpros.com/missions/224556"
+    },
+    {
+      "title": "Analyse d'exploitation superviseur : linux, servicenow",
+      "url": "https://esn.hitechpros.com/missions/224555"
+    },
+    {
+      "title": "Développeur pl/ sql : développement de bases de données, développement web back-end",
+      "url": "https://esn.hitechpros.com/missions/224554"
+    },
+    {
+      "title": "Architecte aks kubernetes h/f : aks, kubernetes",
+      "url": "https://esn.hitechpros.com/missions/224553"
+    },
+    {
+      "title": "Pmo privacy : pmo, protection des données",
+      "url": "https://esn.hitechpros.com/missions/224552"
+    },
+    {
+      "title": "Technicien datacenter : support n1 et n2, infrastructure",
+      "url": "https://esn.hitechpros.com/missions/224551"
+    },
+    {
+      "title": "It solutions lead – géospatial / microsoft – bruxelles (belgique) : esri arcgis suite, fme",
+      "url": "https://esn.hitechpros.com/missions/224550"
+    },
+    {
+      "title": "Ingénieur(e) réseau & sécurité : fortinet, palo alto networks",
+      "url": "https://esn.hitechpros.com/missions/224549"
+    },
+    {
+      "title": "Pentester mobile android et ios : owasp, masvs",
+      "url": "https://esn.hitechpros.com/missions/224548"
+    },
+    {
+      "title": "Pentester spécialisé en sécurité des api : owasp api security top 10, audit",
+      "url": "https://esn.hitechpros.com/missions/224547"
+    },
+    {
+      "title": "Web senior : oscp, bscp",
+      "url": "https://esn.hitechpros.com/missions/224546"
+    },
+    {
+      "title": "Ingénieur séciroté : hsm, sécurité it",
+      "url": "https://esn.hitechpros.com/missions/224545"
+    },
+    {
+      "title": "Développeur confirmé java : jakarta, hibernate",
+      "url": "https://esn.hitechpros.com/missions/224544"
+    },
+    {
+      "title": "Chef de projet digital/mobile 11ans+ : ios, android",
+      "url": "https://esn.hitechpros.com/missions/224543"
+    },
+    {
+      "title": "Business manager : excel, powerpoint",
+      "url": "https://esn.hitechpros.com/missions/224542"
+    },
+    {
+      "title": "Tech lead infrastructure / devsecops : vmware, windows server / linux red hat",
+      "url": "https://esn.hitechpros.com/missions/224540"
+    },
+    {
+      "title": "Consultant senior data & ai platform specialist (h/f) : data architecture, fabric",
+      "url": "https://esn.hitechpros.com/missions/224539"
+    },
+    {
+      "title": "Qa data : qa, data",
+      "url": "https://esn.hitechpros.com/missions/224538"
+    },
+    {
+      "title": "Expert power platform (h/f) : power apps, power automate",
+      "url": "https://esn.hitechpros.com/missions/224537"
+    },
+    {
+      "title": "Mission chef de projet senior infra, microsoft 365 & téléphonie centre de contacts : microsoft 365, sharepoint online : microsoft 365, share...",
+      "url": "https://esn.hitechpros.com/missions/224536"
+    },
+    {
+      "title": "Analyste mainframe cobol /cics : cobol, db2",
+      "url": "https://esn.hitechpros.com/missions/224535"
+    },
+    {
+      "title": "Développeur fullstack : java, angular",
+      "url": "https://esn.hitechpros.com/missions/224534"
+    },
+    {
+      "title": "Expert commvault : commvault, quantum computing",
+      "url": "https://esn.hitechpros.com/missions/224533"
+    }
+  ],
+  "captured_at": "2026-11-09T13:14:37.252511+00:00"
+}

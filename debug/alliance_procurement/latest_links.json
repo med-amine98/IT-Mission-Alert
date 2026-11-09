@@ -1,0 +1,17 @@
+{
+  "platform": "Alliance Procurement",
+  "page": "https://alliance-procurement.piter.at/connexion",
+  "selector": "a[href]",
+  "total_links_in_html": 7,
+  "total_candidates": 7,
+  "missions_found": 0,
+  "rejected": {
+    "missing_url": 0,
+    "invalid_domain_or_path": 7,
+    "invalid_title": 0,
+    "duplicate": 0
+  },
+  "missions": [],
+  "candidates_preview": [],
+  "date": "2026-11-05T08:20:18.114241+00:00"
+}

@@ -1,0 +1,249 @@
+{
+  "platform": "LittleBig Connection",
+  "page": "https://www.littlebigconnection.com/fr/",
+  "selector": "a[href]",
+  "total_links_in_html": 80,
+  "total_candidates": 80,
+  "missions_found": 23,
+  "rejected": {
+    "missing_url": 0,
+    "invalid_domain_or_path": 11,
+    "invalid_title": 24,
+    "duplicate": 22
+  },
+  "missions": [
+    {
+      "id": "ecaed14581d59173b19d64d5d1c348f276f83f9d12db5ecdad53361ae673ffba",
+      "platform": "LittleBig Connection",
+      "title": "LittleBig Connection",
+      "url": "https://www.littlebigconnection.com/fr"
+    },
+    {
+      "id": "93f9c761c928445df503d4a4088d6cf62bb7a49bb83aaa62f8df093628631374",
+      "platform": "LittleBig Connection",
+      "title": "Pourquoi LittleBig Connection ?",
+      "url": "https://www.littlebigconnection.com/fr/entreprises"
+    },
+    {
+      "id": "d621407faf9e85070fc487514a66f34ac094c50b372a331f7ce2067001b82286",
+      "platform": "LittleBig Connection",
+      "title": "Prestataires",
+      "url": "https://www.littlebigconnection.com/fr/prestataires"
+    },
+    {
+      "id": "7c4bcd118152887c09e5a30ceb703560026cbc6a075fd63fd16ba6cbc5842b3e",
+      "platform": "LittleBig Connection",
+      "title": "Sociétés de conseil",
+      "url": "https://www.littlebigconnection.com/fr/prestataires/societes-de-conseil"
+    },
+    {
+      "id": "7f982f9ea49dc621b4ba53c47f2ec707f6c2d1d0e8e05bcbe91e9d45546fc758",
+      "platform": "LittleBig Connection",
+      "title": "Trouver des missions",
+      "url": "https://www.littlebigconnection.com/fr/rfp"
+    },
+    {
+      "id": "5f49fa337dea463aa76c810f74ff5c3669c8d57db2c353386b65690276180f31",
+      "platform": "LittleBig Connection",
+      "title": "Cybersécurité",
+      "url": "https://www.littlebigconnection.com/fr/rfp/cybersecurite"
+    },
+    {
+      "id": "bb1da12c370df8bffb9a3e286e2231ca6309b9e34d32237e31b946450f355ee4",
+      "platform": "LittleBig Connection",
+      "title": "Infrastructure & Réseaux",
+      "url": "https://www.littlebigconnection.com/fr/rfp/infra-reseaux"
+    },
+    {
+      "id": "838dd974c60cf0b0f5b102154d21c96fc478e0226addb194a96c8f11b322200d",
+      "platform": "LittleBig Connection",
+      "title": "UX & UI Design",
+      "url": "https://www.littlebigconnection.com/fr/rfp/ux-ui-design"
+    },
+    {
+      "id": "4e6b5d61b3f257584466544c0dc27361df0d1e2ffc7679ae2ab07fdf73177dbe",
+      "platform": "LittleBig Connection",
+      "title": "Marketing & SEO",
+      "url": "https://www.littlebigconnection.com/fr/rfp/marketing-seo"
+    },
+    {
+      "id": "c5cdaff047baedda23f2af364b426263c425136f1f5b29efd1f615cee47a3971",
+      "platform": "LittleBig Connection",
+      "title": "Data Science & AI",
+      "url": "https://www.littlebigconnection.com/fr/rfp/data-science-ai"
+    },
+    {
+      "id": "8810a8591e67983bd2c9eaa5dc0dac4a1bb8362e92f3a8dd345c0a9cfa069349",
+      "platform": "LittleBig Connection",
+      "title": "Développement Durable & RSE",
+      "url": "https://www.littlebigconnection.com/fr/rfp/dd-rse"
+    },
+    {
+      "id": "9deb8345fbaa6f226199ea772dd570b7b28ee39b56661ac3d77e1fbcd9de235e",
+      "platform": "LittleBig Connection",
+      "title": "Transformation Digitale",
+      "url": "https://www.littlebigconnection.com/fr/rfp/consulting-management"
+    },
+    {
+      "id": "985745635aa077ede6b0f8b1089e3e7d8e9d9834813cc1c41752b5b2298c6f2b",
+      "platform": "LittleBig Connection",
+      "title": "Cloud Engineering",
+      "url": "https://www.littlebigconnection.com/fr/rfp/cloud-engineering"
+    },
+    {
+      "id": "59f703223c9ce87530ab517066bd0c814d02b1e2414eef0b0d3f6fa7a4d8d4d6",
+      "platform": "LittleBig Connection",
+      "title": "Software Engineering",
+      "url": "https://www.littlebigconnection.com/fr/rfp/software-engineering"
+    },
+    {
+      "id": "6eed47e5166acbc5eb775c2c6539515097152a2276341089a69e2b8309cd0d56",
+      "platform": "LittleBig Connection",
+      "title": "Notre plateforme",
+      "url": "https://www.littlebigconnection.com/fr/plateforme"
+    },
+    {
+      "id": "bb292418b5904d832445cd9ec7b7c82a5cc2088ea7b44605a38019cd656af2ac",
+      "platform": "LittleBig Connection",
+      "title": "Publications",
+      "url": "https://www.littlebigconnection.com/fr/publications"
+    },
+    {
+      "id": "1b55ea3a03cf4a80bb79f1f2cb99ddba4b018f2348a56b1c54d38f2352381e40",
+      "platform": "LittleBig Connection",
+      "title": "Qui sommes-nous ?",
+      "url": "https://www.littlebigconnection.com/fr/a-propos"
+    },
+    {
+      "id": "269a77a8c72f76593fe199125045dce04c912d2c12fa5aeb334410d55918e7ea",
+      "platform": "LittleBig Connection",
+      "title": "Développement durable",
+      "url": "https://www.littlebigconnection.com/fr/developpement-durable"
+    },
+    {
+      "id": "fb03c203cb5c06fde15651ebbe11e73e298c6a17ac3f2d7ee73d17559f841559",
+      "platform": "LittleBig Connection",
+      "title": "Nous rejoindre",
+      "url": "https://www.littlebigconnection.com/fr/carrieres"
+    },
+    {
+      "id": "4e539c74cf591131d013d177997da483fe9272aa7eb376d95685b273ec4c24d6",
+      "platform": "LittleBig Connection",
+      "title": "Accédez aux missions",
+      "url": "https://www.littlebigconnection.com/v2/subscription?lang=fr"
+    },
+    {
+      "id": "6c5caf05e4294e391e0e388a70bad484f92b84fc428f8aee09872e262a36c041",
+      "platform": "LittleBig Connection",
+      "title": "Connect for Good",
+      "url": "https://www.littlebigconnection.com/fr/connect-for-good"
+    },
+    {
+      "id": "43ad31cb39e27cfa01b2b60ed3bd0f8a8f67a856fc65c5b4d2bf6351068a930d",
+      "platform": "LittleBig Connection",
+      "title": "Communauté de freelances",
+      "url": "https://www.littlebigconnection.com/fr/prestataires/freelances/communaute"
+    },
+    {
+      "id": "6dca814998f04b99ea6bec91d4de08b8d073cf90837a5310dbdd7e62ec97576b",
+      "platform": "LittleBig Connection",
+      "title": "Déclaration d'accessibilité",
+      "url": "https://www.littlebigconnection.com/fr/declaration-accessibilite-rgaa"
+    }
+  ],
+  "candidates_preview": [
+    {
+      "url": "https://www.littlebigconnection.com/fr",
+      "title": "LittleBig Connection"
+    },
+    {
+      "url": "https://www.littlebigconnection.com/fr/entreprises",
+      "title": "Pourquoi LittleBig Connection ?"
+    },
+    {
+      "url": "https://www.littlebigconnection.com/fr/prestataires",
+      "title": "Prestataires"
+    },
+    {
+      "url": "https://www.littlebigconnection.com/fr/prestataires/societes-de-conseil",
+      "title": "Sociétés de conseil"
+    },
+    {
+      "url": "https://www.littlebigconnection.com/fr/rfp",
+      "title": "Trouver des missions"
+    },
+    {
+      "url": "https://www.littlebigconnection.com/fr/rfp/cybersecurite",
+      "title": "Cybersécurité"
+    },
+    {
+      "url": "https://www.littlebigconnection.com/fr/rfp/infra-reseaux",
+      "title": "Infrastructure & Réseaux"
+    },
+    {
+      "url": "https://www.littlebigconnection.com/fr/rfp/ux-ui-design",
+      "title": "UX & UI Design"
+    },
+    {
+      "url": "https://www.littlebigconnection.com/fr/rfp/marketing-seo",
+      "title": "Marketing & SEO"
+    },
+    {
+      "url": "https://www.littlebigconnection.com/fr/rfp/data-science-ai",
+      "title": "Data Science & AI"
+    },
+    {
+      "url": "https://www.littlebigconnection.com/fr/rfp/dd-rse",
+      "title": "Développement Durable & RSE"
+    },
+    {
+      "url": "https://www.littlebigconnection.com/fr/rfp/consulting-management",
+      "title": "Transformation Digitale"
+    },
+    {
+      "url": "https://www.littlebigconnection.com/fr/rfp/cloud-engineering",
+      "title": "Cloud Engineering"
+    },
+    {
+      "url": "https://www.littlebigconnection.com/fr/rfp/software-engineering",
+      "title": "Software Engineering"
+    },
+    {
+      "url": "https://www.littlebigconnection.com/fr/plateforme",
+      "title": "Notre plateforme"
+    },
+    {
+      "url": "https://www.littlebigconnection.com/fr/publications",
+      "title": "Publications"
+    },
+    {
+      "url": "https://www.littlebigconnection.com/fr/a-propos",
+      "title": "Qui sommes-nous ?"
+    },
+    {
+      "url": "https://www.littlebigconnection.com/fr/developpement-durable",
+      "title": "Développement durable"
+    },
+    {
+      "url": "https://www.littlebigconnection.com/fr/carrieres",
+      "title": "Nous rejoindre"
+    },
+    {
+      "url": "https://www.littlebigconnection.com/v2/subscription?lang=fr",
+      "title": "Accédez aux missions"
+    },
+    {
+      "url": "https://www.littlebigconnection.com/fr/connect-for-good",
+      "title": "Connect for Good"
+    },
+    {
+      "url": "https://www.littlebigconnection.com/fr/prestataires/freelances/communaute",
+      "title": "Communauté de freelances"
+    },
+    {
+      "url": "https://www.littlebigconnection.com/fr/declaration-accessibilite-rgaa",
+      "title": "Déclaration d'accessibilité"
+    }
+  ],
+  "date": "2026-11-05T07:52:18.632706+00:00"
+}

@@ -1,0 +1,46 @@
+{
+  "platform": "LittleBig Infrastructure & Réseaux",
+  "page_url": "https://app.littlebigconnection.com/fr/rfp/infra-reseaux",
+  "card_selectors": [
+    "article.open-rfp-card"
+  ],
+  "candidate_selectors": [
+    "article.open-rfp-card a.open-rfp-card__apply"
+  ],
+  "anchor_count": 92,
+  "candidate_count": 6,
+  "missions_count": 6,
+  "rejected": {
+    "no_href": 0,
+    "bad_url": 0,
+    "bad_title": 0,
+    "duplicate": 0
+  },
+  "preview": [
+    {
+      "title": "Chef de projet déploiement LAN/WIFI",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/project-manager-for-lanwifi-deployment/d2c3dd05-c841-4569-9588-fbb7d43c38f7"
+    },
+    {
+      "title": "Ingénieur Infrastructure pour l'équipe EMEA Run",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/infrastructure-engineer-for-emea-run-team/231b3e5e-7506-4dd8-b477-c6e095ccbb92"
+    },
+    {
+      "title": "Ingénieur Senior Réseau et Virtualisation de Centre de Données",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/senior-data-center-network-and-virtualization-engineer/69f1ea62-4cc2-4867-ba35-7981c8aea145"
+    },
+    {
+      "title": "Responsable de la plateforme Messaging Exchange",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/messaging-exchange-platform-owner/f616f882-2d8d-4344-ad0c-5867501bf875"
+    },
+    {
+      "title": "Ingénieur Systèmes confirmé | Exploitation & industrialisation",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/senior-systems-engineer-operations-industrialization/da240804-5e59-43c7-9c82-a6bf119a63f3"
+    },
+    {
+      "title": "Spécialiste en virtualisation",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/virtualization-specialist/715c0ddc-5c39-4bde-af13-3b446c233d1f"
+    }
+  ],
+  "captured_at": "2026-11-09T13:14:23.953284+00:00"
+}

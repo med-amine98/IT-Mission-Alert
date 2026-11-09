@@ -1,0 +1,3 @@
+[console_scripts]
+fpgen=fpgen.__main__:cli
+

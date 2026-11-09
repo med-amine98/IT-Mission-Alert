@@ -1,0 +1,131 @@
+"""""" # start delvewheel patch
+def _delvewheel_patch_1_13_1():
+    import os
+    if os.path.isdir(libs_dir := os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir, 'curl_cffi.libs'))):
+        os.add_dll_directory(libs_dir)
+
+
+_delvewheel_patch_1_13_1()
+del _delvewheel_patch_1_13_1
+# end delvewheel patch
+
+__all__ = [
+    "Curl",
+    "AsyncCurl",
+    "CurlMime",
+    "CurlShare",
+    "CurlError",
+    "CurlInfo",
+    "CurlOpt",
+    "CurlMOpt",
+    "CurlECode",
+    "CurlHttpVersion",
+    "CurlProxyType",
+    "CurlFollow",
+    "CurlSslVersion",
+    "CurlWsFlag",
+    "CurlWsOption",
+    "CurlShareOpt",
+    "CurlLockData",
+    "CurlLockAccess",
+    "CurlShareCode",
+    "config_warnings",
+    "Fingerprint",
+    "FingerprintManager",
+    "get_fingerprint",
+    "ffi",
+    "lib",
+    "Session",
+    "AsyncSession",
+    "BrowserType",
+    "BrowserTypeLiteral",
+    "request",
+    "head",
+    "get",
+    "post",
+    "put",
+    "patch",
+    "delete",
+    "options",
+    "Cookies",
+    "Headers",
+    "Request",
+    "Response",
+    "AsyncWebSocket",
+    "WebSocket",
+    "WebSocketError",
+    "WebSocketClosed",
+    "WebSocketTimeout",
+    "WebSocketRetryStrategy",
+    "WsCloseCode",
+    "ExtraFingerprints",
+    "CacheBackend",
+    "FileCacheBackend",
+    "CookieTypes",
+    "HeaderTypes",
+    "ProxySpec",
+    "exceptions",
+]
+
+import _cffi_backend  # noqa: F401  # required by _wrapper
+
+from .__version__ import __curl_version__, __description__, __title__, __version__  # noqa: F401
+
+# This line includes _wrapper.so into the wheel
+from ._wrapper import ffi, lib
+from .aio import AsyncCurl
+from .const import (
+    CurlECode,
+    CurlFollow,
+    CurlHttpVersion,
+    CurlInfo,
+    CurlLockAccess,
+    CurlLockData,
+    CurlMOpt,
+    CurlOpt,
+    CurlProxyType,
+    CurlShareCode,
+    CurlShareOpt,
+    CurlSslVersion,
+    CurlWsFlag,
+    CurlWsOption,
+)
+from .curl import Curl, CurlError, CurlMime, CurlShare
+
+from .requests import (
+    AsyncSession,
+    AsyncWebSocket,
+    BrowserType,
+    BrowserTypeLiteral,
+    CacheBackend,
+    Cookies,
+    CookieTypes,
+    ExtraFingerprints,
+    FileCacheBackend,
+    Headers,
+    HeaderTypes,
+    ProxySpec,
+    Request,
+    Response,
+    Session,
+    WebSocket,
+    WebSocketClosed,
+    WebSocketError,
+    WebSocketTimeout,
+    WebSocketRetryStrategy,
+    WsCloseCode,
+    delete,
+    exceptions,
+    get,
+    head,
+    options,
+    patch,
+    post,
+    put,
+    request,
+)
+
+from .utils import config_warnings
+from .fingerprints import Fingerprint, FingerprintManager, get_fingerprint
+
+config_warnings(on=False)

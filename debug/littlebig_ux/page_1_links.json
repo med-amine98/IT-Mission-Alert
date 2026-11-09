@@ -1,0 +1,38 @@
+{
+  "platform": "LittleBig UX/UI Design",
+  "page_url": "https://app.littlebigconnection.com/fr/rfp/ux-ui-design",
+  "card_selectors": [
+    "article.open-rfp-card"
+  ],
+  "candidate_selectors": [
+    "article.open-rfp-card a.open-rfp-card__apply"
+  ],
+  "anchor_count": 91,
+  "candidate_count": 4,
+  "missions_count": 4,
+  "rejected": {
+    "no_href": 0,
+    "bad_url": 0,
+    "bad_title": 0,
+    "duplicate": 0
+  },
+  "preview": [
+    {
+      "title": "UX Researcher Confirmé",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/senior-ux-researcher/459f5885-10cd-4e79-ae2a-75c562d90c84"
+    },
+    {
+      "title": "Designer UX / Produit",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/ux-product-designer/56dd5f06-5abd-43aa-aa16-396ebc12ffb4"
+    },
+    {
+      "title": "Lead Product Designer",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/lead-product-designer/496e0715-8783-4055-8c34-2ebdff96dc71"
+    },
+    {
+      "title": "Concepteur de Contenu Senior",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/senior-content-designer/a340c6a0-f67f-4d44-ba9c-935e3d3a74df"
+    }
+  ],
+  "captured_at": "2026-11-09T13:14:28.704222+00:00"
+}

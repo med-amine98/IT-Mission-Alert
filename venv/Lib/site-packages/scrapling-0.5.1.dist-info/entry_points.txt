@@ -1,0 +1,3 @@
+[console_scripts]
+scrapling = scrapling.cli:main
+scrapling-mcp = scrapling.cli:mcp

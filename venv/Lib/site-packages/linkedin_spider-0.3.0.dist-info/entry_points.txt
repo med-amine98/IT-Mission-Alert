@@ -1,0 +1,3 @@
+[console_scripts]
+linkedin-spider-cli = linkedin_spider.cli.__main__:main
+linkedin-spider-mcp = linkedin_spider.mcp.server:cli_main

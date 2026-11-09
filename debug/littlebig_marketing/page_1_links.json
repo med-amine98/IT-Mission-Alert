@@ -1,0 +1,42 @@
+{
+  "platform": "LittleBig Marketing & SEO",
+  "page_url": "https://app.littlebigconnection.com/fr/rfp/marketing-seo",
+  "card_selectors": [
+    "article.open-rfp-card"
+  ],
+  "candidate_selectors": [
+    "article.open-rfp-card a.open-rfp-card__apply"
+  ],
+  "anchor_count": 92,
+  "candidate_count": 5,
+  "missions_count": 5,
+  "rejected": {
+    "no_href": 0,
+    "bad_url": 0,
+    "bad_title": 0,
+    "duplicate": 0
+  },
+  "preview": [
+    {
+      "title": "Spécialiste en Marketing de Croissance",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/growth-marketing-specialist/445ced59-287a-42b0-9d5a-a7d53d6818a7"
+    },
+    {
+      "title": "Accompagnement en gestion de campagnes CRM et emailing multimarques",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/support-for-multibrand-crm-and-email-campaign-management/7bb6d344-d4dc-4b32-914a-075397ac358b"
+    },
+    {
+      "title": "Expertise en contenus numériques et gestion éditoriale pour série fiction",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/digital-content-expertise-and-editorial-management-for-fiction-series/3f9d9467-3315-4a2b-aaeb-5a1f6289a225"
+    },
+    {
+      "title": "Création et gestion de l’offre numérique de médiation – Réseaux sociaux et YouTube",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/creation-and-management-of-digital-mediation-offer-social-media-and-youtube/67504f3b-a2e5-4ee3-ba4a-f5e3c535c3f3"
+    },
+    {
+      "title": "Responsable des Ventes Solutions",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/solution-sales-manager/548df9df-08f0-4c70-a9ba-7cbaeec188ad"
+    }
+  ],
+  "captured_at": "2026-11-09T13:14:34.033379+00:00"
+}

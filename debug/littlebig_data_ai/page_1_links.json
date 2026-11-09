@@ -1,0 +1,46 @@
+{
+  "platform": "LittleBig Data & AI",
+  "page_url": "https://app.littlebigconnection.com/fr/rfp/data-science-ai",
+  "card_selectors": [
+    "article.open-rfp-card"
+  ],
+  "candidate_selectors": [
+    "article.open-rfp-card a.open-rfp-card__apply"
+  ],
+  "anchor_count": 92,
+  "candidate_count": 6,
+  "missions_count": 6,
+  "rejected": {
+    "no_href": 0,
+    "bad_url": 0,
+    "bad_title": 0,
+    "duplicate": 0
+  },
+  "preview": [
+    {
+      "title": "Expert en IA Agentique pour Produit Digital",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/expert-in-agent-based-ai-for-digital-product/b274d349-f8a0-4c9d-b27e-e9d3bd204210"
+    },
+    {
+      "title": "Ingénieur Data Senior",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/senior-data-engineer/8ff8df44-0052-4375-a215-48da10faa988"
+    },
+    {
+      "title": "Responsable Technique en Ingénierie des Données Temps Réel",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/tech-lead-for-real-time-data-engineering/e34fa8ff-db96-4110-9faa-dba1fc380dc0"
+    },
+    {
+      "title": "Ingénieur Data Senior",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/senior-data-engineer-role/497c67bc-c03a-42da-bce4-ed3d3780dbd8"
+    },
+    {
+      "title": "Ingénieur Data pour migration de plateforme bancaire",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/data-engineer-for-banking-platform-migration/7adddb93-e580-4c25-9a2c-45a6183fa58f"
+    },
+    {
+      "title": "Data Analyst – SQL, PL/SQL, Databricks – 3 ans d'expérience",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/data-analyst-sql-plsql-databricks-3-years-experience/40e16f26-8c25-41e2-8e3b-f6b7dd6b74e5"
+    }
+  ],
+  "captured_at": "2026-11-09T13:14:24.059353+00:00"
+}

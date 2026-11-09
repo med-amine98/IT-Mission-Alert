@@ -1,0 +1,26 @@
+class NetworkError(ValueError):
+    """Error with the network"""
+
+
+class InvalidConstraints(NetworkError):
+    """Raises when a constraint isn't possible"""
+
+
+class RestrictiveConstraints(InvalidConstraints):
+    """Raises when the passed constraints are too restrictive"""
+
+
+class InvalidNode(NetworkError):
+    """Raises when a node doesn't exist"""
+
+
+class NodePathError(InvalidNode):
+    """Raises when a key path doesn't exist"""
+
+
+class MissingRelease(Exception):
+    """Raised when a required GitHub release asset is missing."""
+
+
+class CannotTraceLargeConfigSpace(ValueError):
+    """Raises when the configuration space of a node is too large to trace with exact inference"""

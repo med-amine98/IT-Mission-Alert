@@ -1,0 +1,46 @@
+{
+  "platform": "LittleBig Connection",
+  "page_url": "https://app.littlebigconnection.com/fr/rfp/data-science-ai",
+  "card_selectors": [
+    "article.open-rfp-card"
+  ],
+  "candidate_selectors": [
+    "article.open-rfp-card a.open-rfp-card__apply"
+  ],
+  "anchor_count": 92,
+  "candidate_count": 6,
+  "missions_count": 6,
+  "rejected": {
+    "no_href": 0,
+    "bad_url": 0,
+    "bad_title": 0,
+    "duplicate": 0
+  },
+  "preview": [
+    {
+      "title": "Data Analyst – SQL, PL/SQL, Databricks – 3 ans d'expérience",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/data-analyst-sql-plsql-databricks-3-years-experience/40e16f26-8c25-41e2-8e3b-f6b7dd6b74e5"
+    },
+    {
+      "title": "Développeur IA expert pour agents avancés et chatbots",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/expert-ai-developer-for-advanced-agents-and-chatbots/e58708cf-e536-4996-bccf-00e20c2602b8"
+    },
+    {
+      "title": "Analyste métier pour plateforme IA générative",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/business-analyst-for-generative-ai-platform/39866d73-4d47-4871-b99a-610701fdc4ce"
+    },
+    {
+      "title": "Référent Technique Talend",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/talend-technical-lead-role/7e08c898-8817-45d0-8ee4-f066c4b755d8"
+    },
+    {
+      "title": "Architecte Business et Données",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/business-and-data-architect/6c809b07-2a9b-4888-a37e-328aa5901525"
+    },
+    {
+      "title": "Ingénieur Machine Learning pour Système de Recommandation",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/machine-learning-engineer-for-recommendation-system/fb19e557-7a8c-4d66-b859-2d8a3e5be193"
+    }
+  ],
+  "captured_at": "2026-11-05T08:32:58.960671+00:00"
+}

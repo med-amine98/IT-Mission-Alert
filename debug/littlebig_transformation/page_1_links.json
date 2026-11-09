@@ -1,0 +1,46 @@
+{
+  "platform": "LittleBig Transformation Digitale",
+  "page_url": "https://app.littlebigconnection.com/fr/rfp/consulting-management",
+  "card_selectors": [
+    "article.open-rfp-card"
+  ],
+  "candidate_selectors": [
+    "article.open-rfp-card a.open-rfp-card__apply"
+  ],
+  "anchor_count": 96,
+  "candidate_count": 6,
+  "missions_count": 6,
+  "rejected": {
+    "no_href": 0,
+    "bad_url": 0,
+    "bad_title": 0,
+    "duplicate": 0
+  },
+  "preview": [
+    {
+      "title": "Analyste métier pour portail investisseur",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/business-analyst-for-investor-portal/c15f7102-7d5a-4879-aeef-f059eb3d7e10"
+    },
+    {
+      "title": "Gestionnaire de Contrats pour Projets de Raccordement Électrique",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/contract-manager-for-electricity-network-connection-projects/671608f1-a0ff-44b2-a876-e94298c7f805"
+    },
+    {
+      "title": "Consultant communication éditoriale, innovation, IA / Confirmé",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/editorial-communication-consultant-innovation-ai-experienced/3e15a5da-dc5a-4ac8-8a54-9c86e68785df"
+    },
+    {
+      "title": "Scrum Master senior / Coach Agile",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/senior-scrum-master-agile-coach/c7eda729-a5c5-48db-92e0-302c6ef95335"
+    },
+    {
+      "title": "Spécialiste Chaîne d'Approvisionnement et Achats",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/supply-chain-and-procurement-specialist/4d04c00b-59b5-4529-9f7e-e26479575aff"
+    },
+    {
+      "title": "Product Owner pour Data Factory Risques",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/product-owner-for-risk-data-factory/0f4f5593-c32c-4d2a-aad1-3afb2a820212"
+    }
+  ],
+  "captured_at": "2026-11-09T13:14:32.516091+00:00"
+}

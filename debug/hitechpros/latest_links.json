@@ -1,0 +1,9 @@
+{
+  "platform": "HiTechPros",
+  "page": "https://freelance.hitechpros.com/dashboard",
+  "selector": "a[href]",
+  "total_candidates": 0,
+  "missions_found": 0,
+  "missions": [],
+  "date": "2026-11-05T07:41:18.654264+00:00"
+}

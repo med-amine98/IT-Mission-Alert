@@ -1,0 +1,46 @@
+{
+  "platform": "LittleBig Cybersécurité",
+  "page_url": "https://app.littlebigconnection.com/fr/rfp/cybersecurite",
+  "card_selectors": [
+    "article.open-rfp-card"
+  ],
+  "candidate_selectors": [
+    "article.open-rfp-card a.open-rfp-card__apply"
+  ],
+  "anchor_count": 92,
+  "candidate_count": 6,
+  "missions_count": 6,
+  "rejected": {
+    "no_href": 0,
+    "bad_url": 0,
+    "bad_title": 0,
+    "duplicate": 0
+  },
+  "preview": [
+    {
+      "title": "Analyste SOC Niveau 2/3",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/soc-analyst-level-23/875fb8f4-f6ce-45b6-bddd-8f6332639804"
+    },
+    {
+      "title": "Tech Lead LDAP pour la gestion des identités",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/tech-lead-ldap-for-identity-management/1c0e7f5d-9315-4f6c-a498-010e85b96d24"
+    },
+    {
+      "title": "Architecte cybersécurité avec expertise DevSecOps",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/cybersecurity-architect-with-devsecops-expertise/2cb0472d-f907-4a02-abdd-5ba33a1a07d0"
+    },
+    {
+      "title": "Développeur Keycloak",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/keycloak-developer/8974a0ba-f4ba-4c98-b6d9-7f8e224d9634"
+    },
+    {
+      "title": "Consultant Cybersécurité",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/cybersecurity-consultant-role/07c152bf-7874-4fd5-a2b7-b3a18dab78b9"
+    },
+    {
+      "title": "Réalisation de quatre analyses de risques cybersécurité EBIOS RM",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/conduct-four-ebios-rm-cybersecurity-risk-analyses/c10f18b0-acc7-4431-ab39-09240fb1c67f"
+    }
+  ],
+  "captured_at": "2026-11-09T13:14:23.806779+00:00"
+}

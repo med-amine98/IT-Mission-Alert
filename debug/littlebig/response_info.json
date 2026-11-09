@@ -1,0 +1,9 @@
+{
+  "requested_url": "https://www.littlebigconnection.com/",
+  "final_url": "https://www.littlebigconnection.com/fr/",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length": 493780,
+  "method": "aiohttp",
+  "date": "2026-11-05T07:52:18.602000+00:00"
+}

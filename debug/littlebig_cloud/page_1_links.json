@@ -1,0 +1,46 @@
+{
+  "platform": "LittleBig Cloud Engineering",
+  "page_url": "https://app.littlebigconnection.com/fr/rfp/cloud-engineering",
+  "card_selectors": [
+    "article.open-rfp-card"
+  ],
+  "candidate_selectors": [
+    "article.open-rfp-card a.open-rfp-card__apply"
+  ],
+  "anchor_count": 92,
+  "candidate_count": 6,
+  "missions_count": 6,
+  "rejected": {
+    "no_href": 0,
+    "bad_url": 0,
+    "bad_title": 0,
+    "duplicate": 0
+  },
+  "preview": [
+    {
+      "title": "Expert en services cloud AWS et GCP avec plus de 7 ans d'expérience",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/aws-and-gcp-cloud-services-expert-with-7-years-experience/64a6b6de-1bbe-49a2-940b-a39ea6e3431f"
+    },
+    {
+      "title": "Ingénieur Cloud et DevOps",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/cloud-and-devops-engineer/97dfe944-858d-47c1-87fb-26b8fd43f07e"
+    },
+    {
+      "title": "Architecte API pour déploiement de plateforme hybride",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/api-architect-for-hybrid-platform-deployment/08a06acb-0517-449f-8eb4-a77d880a9159"
+    },
+    {
+      "title": "Ingénieur Plateforme Microsoft 365 Core - Expert Niveau 3",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/platform-engineer-microsoft-365-core-level-3-expert/679a2140-aff4-4503-b12e-8d9a5ab8746f"
+    },
+    {
+      "title": "Tech Lead pour Cloud, Architecture Événementielle et Systèmes Legacy",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/tech-lead-for-cloud-event-architecture-and-legacy-systems/d4e14099-e844-46b9-b011-330fe982b145"
+    },
+    {
+      "title": "Rôle DevSecOps pour le support des applications cœur",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/devsecops-role-for-core-application-support/f5e365ec-373e-4780-acaf-06a0af53e0b7"
+    }
+  ],
+  "captured_at": "2026-11-09T13:14:28.142595+00:00"
+}

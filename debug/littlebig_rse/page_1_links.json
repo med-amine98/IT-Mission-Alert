@@ -1,0 +1,30 @@
+{
+  "platform": "LittleBig RSE & Durable",
+  "page_url": "https://app.littlebigconnection.com/fr/rfp/dd-rse",
+  "card_selectors": [
+    "article.open-rfp-card"
+  ],
+  "candidate_selectors": [
+    "article.open-rfp-card a.open-rfp-card__apply"
+  ],
+  "anchor_count": 94,
+  "candidate_count": 2,
+  "missions_count": 2,
+  "rejected": {
+    "no_href": 0,
+    "bad_url": 0,
+    "bad_title": 0,
+    "duplicate": 0
+  },
+  "preview": [
+    {
+      "title": "Consultant en gestion de l'énergie",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/energy-manager-consultant/bd9f2beb-a741-49d8-9c4c-83e4bbb22503"
+    },
+    {
+      "title": "Responsable QHSE – Electrification Industrielle",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/qhse-manager-industrial-electrification/ec624291-1497-47e8-b942-28c0ef0d6dc5"
+    }
+  ],
+  "captured_at": "2026-11-09T13:14:32.604469+00:00"
+}

@@ -1,0 +1,46 @@
+{
+  "platform": "LittleBig Software Engineering",
+  "page_url": "https://app.littlebigconnection.com/fr/rfp/software-engineering",
+  "card_selectors": [
+    "article.open-rfp-card"
+  ],
+  "candidate_selectors": [
+    "article.open-rfp-card a.open-rfp-card__apply"
+  ],
+  "anchor_count": 92,
+  "candidate_count": 6,
+  "missions_count": 6,
+  "rejected": {
+    "no_href": 0,
+    "bad_url": 0,
+    "bad_title": 0,
+    "duplicate": 0
+  },
+  "preview": [
+    {
+      "title": "Ingénieur Test / Lead Vérification & Validation (V&V)",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/test-engineer-lead-verification-validation-vv-role/93de1d54-c179-4511-a3e2-d7a9ec0a6e5c"
+    },
+    {
+      "title": "Ingénieur Intégration pour Plateforme Middleware d'Entreprise",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/integration-engineer-for-enterprise-middleware-platform/a33651de-d432-4a4a-886d-ffdc8c981699"
+    },
+    {
+      "title": "Développeur Lead pour Plateforme de Catalogue de Données",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/lead-developer-for-data-catalog-platform/d4ad8093-b261-475b-a8ae-67ce2376af29"
+    },
+    {
+      "title": "Développeur Salesforce avec 2-5 ans d'expérience - Poste sur site",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/salesforce-developer-with-2-5-years-experience-onsite-role/d71be3db-ed1f-431a-9bf4-c0cfa7dd775e"
+    },
+    {
+      "title": "Développeur Senior Salesforce avec 5-8+ Ans d'Expérience",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/senior-salesforce-developer-with-5-8-years-experience/e54ff67c-5589-42e1-964b-bfb7d0c41929"
+    },
+    {
+      "title": "Analyste QA Senior en Intégration Fonctionnelle",
+      "url": "https://www.littlebigconnection.com/v2/project-brief/senior-functional-integration-qa-analyst/1bb33a34-7cc3-490e-9cd5-2a7412646976"
+    }
+  ],
+  "captured_at": "2026-11-09T13:14:28.556255+00:00"
+}

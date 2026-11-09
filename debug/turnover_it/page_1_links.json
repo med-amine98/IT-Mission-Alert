@@ -1,0 +1,25 @@
+{
+  "platform": "Turnover-IT",
+  "page_url": "https://www.turnover-it.com/",
+  "candidate_selectors": [
+    "a[href*='mission']",
+    "a[href*='offre']",
+    "a[href*='job']"
+  ],
+  "anchor_count": 51,
+  "candidate_count": 2,
+  "missions_count": 1,
+  "rejected": {
+    "no_href": 0,
+    "bad_url": 0,
+    "bad_title": 0,
+    "duplicate": 1
+  },
+  "preview": [
+    {
+      "title": "Diffuser vos offres",
+      "url": "https://www.turnover-it.com/solutions/job-publication"
+    }
+  ],
+  "captured_at": "2026-11-05T08:05:15.059819+00:00"
+}

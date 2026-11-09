@@ -1,0 +1,9 @@
+{
+  "requested_url": "https://app.turnover-it.com/",
+  "final_url": "https://app.turnover-it.com/login?redirect=/",
+  "status": 200,
+  "content_type": "text/html;charset=utf-8",
+  "content_length": 287050,
+  "method": "playwright",
+  "date": "2026-11-05T08:20:21.497194+00:00"
+}
